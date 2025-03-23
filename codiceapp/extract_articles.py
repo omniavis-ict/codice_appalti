@@ -12,8 +12,6 @@ def remove_page_number_and_other_noise_text(lines)-> list:
             lines.remove(line)
             # print("removed — n — line")
 
-    print(len(lines))
-
     for line in lines:
         # if line contains only spaces, remove it
         if ' \n' == line:
